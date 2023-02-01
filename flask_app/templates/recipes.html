@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 90%;
+        }
+        
+        td {
+          border: 1px solid #dddddd;
+          text-align: center;
+          padding: 8px;
+        }
+        th {
+          border: 1px solid #dddddd;
+          text-align: center;
+          padding: 8px;
+          background-color: #878585;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="topLeft">
+            <h1>Welcome, Alana</h1>
+            <h3>All posted recipes:</h3>
+        </div>
+        <div class="topRight">
+            <a href="new_recipe.html">+Create</a>
+            <a href="/logout">logout</a>
+        </div>
+    </div>
+
+    <div class="table">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Under</th>
+                <th>Posted By</th>
+                <th>Actions</th>
+              </tr>
+              <tr>
+                <td>Spaghetti</td>
+                <td>Yes</td>
+                <td>Alana</td>
+                <td> <a href= "/recipe">view recipe</a> | <a href= "edit_recipe.html">edit</a> | <a href="/delete">delete</a></td>
+              </tr>
+              <tr>
+                <td>Spam Musubi</td>
+                <td>Yes</td>
+                <td>Kai</td>
+                <td><a href= "/recipe">view recipe</a></td>
+              </tr>
+              <tr>
+                <td>Cheesecake</td>
+                <td>No</td>
+                <td>Rajan</td>
+                <td><a href= "/recipe">view recipe</a></td>
+              </tr>
+              <tr>
+                <td>Garlic Bread</td>
+                <td>No</td>
+                <td>Alana</td>
+                <td><a href= "/recipe">view recipe</a> | <a href= "edit_recipe.html">edit</a> | <a href="/delete">delete</a></td>
+              </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
